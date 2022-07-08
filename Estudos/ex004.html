@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Exemplo 03</title>
+    </head>
+    <h1>Aula do dia 16-02-2022</h1>
+    <h2>Criando Formulário</h2>
+    <body>
+        <form action="exemplo04" method="post">
+            <table>
+                <tr>
+                    <td>TEXTO SILMPLES
+                    <input type="text" name="texto_simples" placeholder="Digite um texto">
+                    </td>
+                </tr>
+                <hr>
+                <tr>
+                    <td>CAMPO DE SELEÇÃO(MÚLTIPLOS)
+                    <input type="checkbox" name="campo_selecao_m">opção01
+                    <input type="checkbox" name="campo_selecao_m">opção02
+                    <input type="checkbox" name="campo_selecao_m">opção03</td>
+                </tr>
+                
+                <tr>
+                    <td>CAMPO DE SELEÇÃO(VALOR ÚNICO)
+                    <input type="radio" name="campo_selecao_u">opção01
+                    <input type="radio" name="campo_selecao_u">opção02
+                    <input type="radio" name="campo_selecao_u">opção03</td>
+                </tr>
+                
+                <tr>
+                    <td>SELECT
+                    <select name="Lista">
+                    <option value="01">opção01</option>
+                    <option value="02">opção02</option>
+                    <option value="03">opção03</option>
+                    </select></td>
+                </tr>
+                
+                <tr>
+                    <td>SELECT(MÚLTIPLE)<br>
+                    <select name="Lista" multiple>
+                    <option value="01">opção01</option>
+                    <option value="02">opção02</option>
+                    <option value="03">opção03</option>
+                    </select></td>
+                </tr>
+                
+                <tr>
+                    <td>TEXTO LONGO<br>
+                    <textarea name="texto_longo" cols="30" rows="10"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td>CAMPO DE DATA
+                    <input type="date" name="data"></td>
+                </tr>
+                
+                <tr>
+                    <td>CAMPO DE NÚMEROS
+                    <input type="number" name="numero"></td>
+                </tr>
+                
+                <tr> 
+                    <td><input type="reset" value="limpar">
+                    <input type="submit" value="enviar"></td>
+                </tr>
+
+            </table>
+        </form>
+    <table>
+
+    </table>
+    </body>
+</html>
